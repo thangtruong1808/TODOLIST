@@ -3,6 +3,15 @@ function init() {
     const addTaskContainer = document.getElementById('taskContainer');
     const getInputField = document.getElementById('inputTask');
     const getbtnReset = document.getElementById('btnReset');
+    //const btnDisplayMessage = $('#btnWarning');
+
+
+    function sayHello(event) {
+        alert('Hello.');
+    }
+
+    $('#btnWarning').click(sayHello);
+    //btnDisplayMessage.addEventListener('click', sayHello);
 
     //addToDobtn.addEventListener('click', myFunction());
     addToDobtn.addEventListener('click', function() {
