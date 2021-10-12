@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+}
+
+header h3 {
+    text-transform: capitalize;
+    color: blue;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+}
